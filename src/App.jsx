@@ -8,6 +8,10 @@ import Status from "./files/status"
 import User from "./files/user"
 import Todo from "./files/todo"
 
+import Profile from "./files_day1/profile"
+import Foods from "./files_day1/foods"
+import Greet from "./files_day1/DayGreet"
+
 export default function App(){
   // return(<>
   //   <Greeting name={'Lazare'} />
@@ -81,6 +85,15 @@ export default function App(){
 
   // return <Todo todos={['Kill Predator n1','kill rapist n2']}/>
 
-  
+  // return(<>
+  //   <main className="w-full h-screen flex items-center justify-center"  >
+  //     <Profile name={'Lazare'} lastname={'Mirziashvili'} age={15} status={'online'} PictureID={120} />
+  //   </main>
+  // </>);
 
+  // return(<Foods />)
+
+  // return(<Greet day={'night'}/>)
+
+  
 }
