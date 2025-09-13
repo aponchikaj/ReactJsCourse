@@ -12,6 +12,8 @@ import Profile from "./files_day1/profile"
 import Foods from "./files_day1/foods"
 import Greet from "./files_day1/DayGreet"
 
+import { useState } from "react"
+
 export default function App(){
   // return(<>
   //   <Greeting name={'Lazare'} />
@@ -95,5 +97,26 @@ export default function App(){
 
   // return(<Greet day={'night'}/>)
 
+  // let [i,set_i] = useState(0)
+
+  // function increase(){
+  //     set_i(i+1)
+  // }
+
+  // function decrease(){
+  //   set_i(i-1)
+  // }
+
+  // return(<>
+  //   <main className="w-full h-screen flex flex-col items-center justify-center">
+  //     <h1 className="text-2xl ">{i}</h1>
+  //     <ul className="flex gap-10">
+  //       <button onClick={increase} className="text-2xl font-bold bg-[#000000] text-white rounded-[5px] p-[10px]">+</button>
+  //       <button onClick={decrease} className="text-2xl font-bold bg-[#000000] text-white rounded-[5px] p-[10px]">-</button>
+  //     </ul>
+  //   </main>
+  // </>)
+
   
+
 }
