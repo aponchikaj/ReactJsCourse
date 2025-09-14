@@ -162,28 +162,30 @@ export default function App(){
   //   </main>
   // </>)
 
-  let [Todos,SetTodos] = useState([])
-  let [newTodo,SetNew]=useState('')
+  // let [Todos,SetTodos] = useState([])
+  // let [newTodo,SetNew]=useState('')
 
-  function AddNew(){
-    SetTodos([...Todos,newTodo])
-    SetNew('')
-  }
+  // function AddNew(){
+  //   SetTodos([...Todos,newTodo])
+  //   SetNew('')
+  // }
 
-  let TODOS = Todos.map((t)=><li>{t}</li>)
+  // let TODOS = Todos.map((t)=><li>{t}</li>)
 
-  return(<>
-    <main className="w-full h-screen flex items-center justify-center flex-col">
-      <section>
-        <input className="rounded-[10px] border p-[10px]" type="text" value={newTodo} onChange={e=>SetNew(e.target.value)} />
-        <button onClick={AddNew}>ADD</button>
-      </section>
-      <section>
-        <ul className="flex flex-col">
-          {TODOS}
-        </ul>
-      </section>
-    </main>
-  </>)
+  // return(<>
+  //   <main className="w-full h-screen flex items-center justify-center flex-col">
+  //     <section>
+  //       <input className="rounded-[10px] border p-[10px]" type="text" value={newTodo} onChange={e=>SetNew(e.target.value)} />
+  //       <button onClick={AddNew}>ADD</button>
+  //     </section>
+  //     <section>
+  //       <ul className="flex flex-col">
+  //         {TODOS}
+  //       </ul>
+  //     </section>
+  //   </main>
+  // </>)
+
+  
 
 }
